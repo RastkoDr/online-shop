@@ -8,5 +8,4 @@ app.set("view engine", "ejs");
 
 app.use(express.static('./client/'));
 
-
 app.listen(process.env.PORT || 8080, () => console.log("Running on port 8080"));
